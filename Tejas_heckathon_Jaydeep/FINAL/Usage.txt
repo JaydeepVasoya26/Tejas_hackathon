@@ -1,2 +1,2 @@
 cc main.c
-./a.out <Number_of_process>
+./a.out <Number_of_process> -lpthread

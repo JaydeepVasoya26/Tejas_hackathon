@@ -225,12 +225,10 @@ int main(int argc, char **argv)
 	if(argc!=2)
 	{
 		printf("MSG: ./a.out NUMER_OF_PROCESS\n");
-//		exit(0);
+	exit(0);
 	}
+	int num=atoi(argv[1]);
 
-//	int num=atoi(argv[1]);
-
-	int num=5;
 	pthread_t tid[num];
 	int j=0,i,rec;
 	int s;
